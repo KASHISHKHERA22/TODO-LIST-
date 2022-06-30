@@ -1,0 +1,56 @@
+body {
+    background-color: antiquewhite;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+} */
+
+h1 {
+    color: magenta;
+    opacity: 0.4;
+    font-style: oblique;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input {
+    width: 30rem;
+    font-size: 2rem;
+    margin-right: 2rem;
+    position: fixed;
+    top: 9rem;
+}
+
+.todo {
+    position: fixed;
+    top: 12rem;
+    right: 41rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    list-style: decimal;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: rgb(221, 13, 13);
+
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+p:hover {
+    font-size: 1.125rem;
+    color: firebrick;
+    box-shadow: aqua;
+}
